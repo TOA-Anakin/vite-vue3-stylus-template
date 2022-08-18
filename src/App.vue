@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <div id="my-div">THIS IS MY DIV</div>
+  <div id="another-div">THIS IS MY ANOTHER DIV</div>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
@@ -24,6 +25,11 @@ import HelloWorld from './components/HelloWorld.vue'
   padding: 1rem;
   color: $c-text;
   background-color: $c-bg;
+}
+#another-div {
+  padding: 1rem;
+  color: $c-yellow;
+  background-color: $c-blue;
 }
 .logo {
   height: 6em;
